@@ -1,5 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .header {
-    height: 50px;
+    height: 15%;
     margin: 0 0 30px;
     display: flex;
     justify-content: space-between;
@@ -30,6 +38,7 @@
 }
 
 .main {
+    height: 85%;
     position: relative;
 }
 
@@ -37,20 +46,20 @@
     font-size: 60px;
     margin: 0;
     position: absolute;
-    top: 260px;
+    bottom: 38%;
 }
 
 .main__dec {
     width: 70%;
-    height: 150px;
+    height: 30%;
     background-color: #00277e;
     position: absolute;
-    top: 330px;
+    bottom: 10%;
 }
 
 .main__img {
     width: 50%;
-    height: 400px;
+    height: 75%;
     position: absolute;
     top: 0;
     right: 0;
